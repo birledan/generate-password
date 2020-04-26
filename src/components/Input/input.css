@@ -1,0 +1,22 @@
+.input-wrapper {
+  margin: 40px;
+  text-align: center;
+}
+
+.active-btn {
+  cursor: pointer;
+  background: #61dafb;
+  color: #282c34;
+  border-color: #61dafb;
+}
+
+.disable-btn {
+  color: #61dafb;
+  background: #282c34;
+  border-color: #61dafb;
+}
+
+.user-id {
+  width: 80px;
+  margin-left: 20px;
+}

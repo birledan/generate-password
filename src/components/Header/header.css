@@ -1,0 +1,32 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-bottom: 1px solid #61dafb;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  height: 10vmin;
+  margin: 20px;
+  pointer-events: none;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}

@@ -1,0 +1,43 @@
+.table {
+  display: flex;
+  margin: 20px;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #61dafb;
+  align-items: center;
+}
+
+.column-title {
+  margin-bottom: 10px;
+}
+
+.blue {
+  min-height: 24px;
+  color: #61dafb;
+}
+
+.loading-logo {
+  height: 20px;
+  pointer-events: none;
+}
+
+@keyframes loading-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .loading-logo {
+    animation: loading-logo-spin infinite 2s linear;
+  }
+}
